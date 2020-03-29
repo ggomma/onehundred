@@ -4,9 +4,10 @@ import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+
+import { rank } from '../../data';
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
@@ -32,14 +33,8 @@ function createData(rank, name, success) {
   return { rank, name, success };
 }
 
-const rows = [
-  createData('1', '꼼마', 159),
-  createData('2', '키제이', 237),
-  createData('3', '김계란', 262),
-  createData('4', '말왕', 305),
-  createData('5', '클핏러버', 356),
-  createData('6', '헬창', 356),
-];
+const sortedRanks = rank.sort((a, b) => b.success - a.success);
+const rows = sortedRanks.map((r, i) => createData(i + 1, r.name, r.success));
 
 const useStyles = makeStyles({
   table: {

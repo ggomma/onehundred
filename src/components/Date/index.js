@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
+import { date } from '../../data';
+
 const useStyles = makeStyles({
   wrapper: {
     height: '6rem',
@@ -19,7 +21,7 @@ const Date = () => {
 
   return (
     <div className={classes.wrapper}>
-      <span>3월 30일</span>
+      <span>{date}</span>
       <div className={classes.wod}>
         <span>Burpees</span>
       </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 
+import { video } from '../../data';
+
 const useStyles = makeStyles({
   wrapper: {
     width: '100%',
@@ -22,7 +24,7 @@ const Video = () => {
 
   return (
     <div className={classes.wrapper}>
-      <iframe className={classes.iframe} width="100%" height="auto" src="https://www.youtube.com/embed/TU8QYVW0gDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+      <iframe className={classes.iframe} width="100%" height="auto" src={video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
     </div>
   );
 }

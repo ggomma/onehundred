@@ -22,7 +22,7 @@ const Video = () => {
 
   return (
     <div className={classes.wrapper}>
-      <iframe className={classes.iframe} width="100%" height="auto" src="https://www.youtube.com/embed/0p4GD7KecyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
+      <iframe className={classes.iframe} width="100%" height="auto" src="https://www.youtube.com/embed/TU8QYVW0gDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
     </div>
   );
 }

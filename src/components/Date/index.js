@@ -19,7 +19,7 @@ const Date = () => {
 
   return (
     <div className={classes.wrapper}>
-      <span>4/5</span>
+      <span>3월 30일</span>
       <div className={classes.wod}>
         <span>Burpees</span>
       </div>

@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Video from "../components/Video";
 import SEO from "../components/seo";
 import LeaderBoard from '../components/LeaderBoard';
+import Date from '../components/Date';
 
 const IndexPage = () => (
   <Layout>
+    <Date />
     <Video />
     <div style={{ height: '30px' }} />
     <LeaderBoard />

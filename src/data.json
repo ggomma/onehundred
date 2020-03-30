@@ -1,12 +1,12 @@
 {
   "video": "https://www.youtube.com/embed/TU8QYVW0gDU",
-  "date": "3월 30일",
+  "date": "3월 31일",
   "wod": "Burpees",
   "rank": [
     { "name": "꼼마", "success": 5 },
-    { "name": "채트웍", "success": 1 },
-    { "name": "키제이", "success": 2 },
-    { "name": "아톰", "success": 0 },
+    { "name": "홍길동", "success": 1 },
+    { "name": "홍길순", "success": 2 },
+    { "name": "이투투", "success": 0 },
     { "name": "구식이", "success": 0 },
     { "name": "룰라룰", "success": 0 },
     { "name": "오늘부터", "success": 0 }
